@@ -21,7 +21,7 @@ const Calculator = () => {
     try {
       setInput(eval(input).toString());
     } catch (error) {
-      setInput('Error');
+      setInput(' ');
     }
   };
 
